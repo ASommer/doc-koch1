@@ -1,35 +1,315 @@
-<!DOCTYPE html> <html class=no-js lang=de> <head> <meta charset=utf-8> <title>Restaurant Eiffel</title> <meta name=description content=""> <meta name=viewport content="width=device-width,initial-scale=1"> <link rel="shortcut icon" href=/favicon.73f7f678.ico> <link rel=apple-touch-icon href=/apple-touch-icon.d7a86dae.png> <link rel=apple-touch-icon-precomposed href=touch/eiffel-icon-57x57.png> <link rel=apple-touch-icon-precomposed sizes=72x72 href=/touch/eiffel-icon-72x72.png> <link rel=apple-touch-icon-precomposed sizes=120x120 href=touch/eiffel-icon-120x120.png> <link rel=apple-touch-icon-precomposed sizes=152x52 href=touch/eiffel-icon-152x152.png> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/vendor.2e0189f1.css> <link rel=stylesheet href=styles/main.f5045668.css>  <body> <!--[if lt IE 10]>
+<!doctype html>
+<html class="no-js" lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant Eiffel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.73f7f678.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.d7a86dae.png">
+    <link rel="apple-touch-icon-precomposed" href="touch/eiffel-icon-57x57.png">
+  	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/touch/eiffel-icon-72x72.png">
+  	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="touch/eiffel-icon-120x120.png">
+  	<link rel="apple-touch-icon-precomposed" sizes="152x52" href="touch/eiffel-icon-152x152.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.2e0189f1.css">
+    <link rel="stylesheet" href="styles/main.fe4ab5d3.css">
+
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <header> <nav class="navbar nav-top"> <div class=container-fluid> <div class=navbar-header> <a href=# class=navbar-brand> <!--[if gte IE 9]><!--><img height=70px src=images/dr-med-gerlinde-koch.svgz data-fallback=images/dr-med-gerlinde-koch@2x.png onerror="this.src=this.getAttribute('data-fallback');this.onerror=null" alt="Koch Logo" id="esvg"><!--<![endif]--> <!--[if lt IE 9]><img src="images/dr-med-gerlinde-koch.png" alt="Koch Logo" id=„eiff“><![endif]--> </a> </div> </div> </nav> </header> <div class="container-fluid main-container"> <div class="row sliders"> <!-- Slider 1 --> <div class=row-praxis> <div id=carousel-praxis class="carousel slide" data-ride=carousel data-interval=false> <div class=slider-title><h2>Praxis</h2></div> <!-- Wrapper for slides --> <div class=carousel-inner role=listbox> <div class="item praxis-sl-1 active"> <img class=lazyload alt=Praxis src=./images/s/praxis-01.jpg data-srcset="
+    <![endif]-->
+    <header>
+      <nav class="navbar nav-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+              <!--[if gte IE 9]><!--><img height="70px" src="images/dr-med-gerlinde-koch.svgz" data-fallback="images/dr-med-gerlinde-koch@2x.png" onerror="this.src=this.getAttribute('data-fallback');this.onerror=null;" alt="Koch Logo" id="esvg"/><!--<![endif]-->
+              <!--[if lt IE 9]><img src="images/dr-med-gerlinde-koch.png" alt="Koch Logo" id=„eiff“><![endif]-->
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="container-fluid main-container">
+
+      <div class="row sliders">
+
+        <!-- Slider 1 -->
+        <div class="row-praxis">
+          <div id="carousel-praxis" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="slider-title"><h2>Praxis</h2></div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item praxis-sl-1 active">
+                <img class="lazyload"  alt="Praxis" src="./images/s/praxis-01.jpg" data-srcset=
+                  "
                   images/s/praxis-01.jpg 640w,
                   images/l/praxis-01.jpg 1200w,
-                  images/xxl/praxis-01.jpg 1600w"> </div> <div class="item praxis-sl-2"> <img class=lazyload alt=Praxis src=./images/s/praxis-02.jpg data-srcset="
+                  images/xxl/praxis-01.jpg 1600w"
+                />
+              </div>
+              <div class="item praxis-sl-2">
+                <img class="lazyload"  alt="Praxis" src="./images/s/praxis-02.jpg" data-srcset=
+                "
                 images/s/praxis-02.jpg 640w,
                 images/l/praxis-02.jpg 1200w,
-                images/xxl/praxis-02.jpg 1600w"> </div> </div> <!-- Controls --> <a class="left carousel-control" href=#carousel-praxis role=button data-slide=prev> <span class="icon icon-arrow-left" aria-hidden=true></span> <span class=sr-only>Previous</span> </a> <a class="right carousel-control" href=#carousel-praxis role=button data-slide=next> <span class="icon icon-arrow-right" aria-hidden=true></span> <span class=sr-only>Next</span> </a> <!-- Show More Link--> <a href=#praxisdescription class=show-more role=button data-toggle=collapse aria-expanded=false aria-controls=restaurantdescription> <span class="icon icon-arrow-down"></span> </a> </div><!-- END #carousel-praxis --> <!-- Show More Block--> <div id=praxisdescription class="more-block collapse"> <div class=content> <h3>Privatärztliche Praxis</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div> </div> </div><!-- END .row-praxis --> <!-- Slider 2 - Person --> <div class=row-person> <div id=carousel-person class="carousel slide" data-ride=carousel data-interval=false> <div class=slider-title> <h2>Person</h2> </div> <!-- Wrapper for slides --> <div class=carousel-inner role=listbox> <div class="item person-sl-1 active"> <img class=lazyload alt=Person src=./images/s/person-01.jpg data-srcset="
+                images/xxl/praxis-02.jpg 1600w"
+                />
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-praxis" role="button" data-slide="prev">
+              <span class="icon icon-arrow-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-praxis" role="button" data-slide="next">
+              <span class="icon icon-arrow-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+            <!-- Show More Link-->
+            <a href="#praxisdescription" class="show-more" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="restaurantdescription">
+              <span class="icon icon-arrow-down"></span>
+            </a>
+          </div><!-- END #carousel-praxis -->
+
+          <!-- Show More Block-->
+          <div id="praxisdescription" class="more-block collapse">
+            <div class="content">
+              <h3>Privatärztliche Praxis</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+          </div>
+        </div><!-- END .row-praxis -->
+
+
+
+
+        <!-- Slider 2 - Person -->
+        <div class="row-person">
+          <div id="carousel-person" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="slider-title">
+              <h2>Person</h2>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item person-sl-1 active">
+                <img class="lazyload"  alt="Person" src="./images/s/person-01.jpg" data-srcset=
+                "
                 images/s/person-01.jpg 640w,
                 images/l/person-01.jpg 1200w,
-                images/xxl/person-01.jpg 1600w"> </div> <div class="item person-sl-2"> <img class=lazyload alt=Person src=./images/s/person-02.jpg data-srcset="
+                images/xxl/person-01.jpg 1600w"
+               />
+              </div>
+              <div class="item person-sl-2">
+                <img class="lazyload"  alt="Person" src="./images/s/person-02.jpg" data-srcset=
+                "
                 images/s/person-02.jpg 640w,
                 images/l/person-02.jpg 1200w,
-                images/xxl/person-02.jpg 1600w"> </div> <div class="item person-sl-3"> <img class=lazyload alt=Person src=./images/s/person-03.jpg data-srcset="
+                images/xxl/person-02.jpg 1600w"
+               />
+              </div>
+              <div class="item person-sl-3">
+                <img class="lazyload"  alt="Person" src="./images/s/person-03.jpg" data-srcset=
+                "
                 images/s/person-03.jpg 640w,
                 images/l/person-03.jpg 1200w,
-                images/xxl/person-03.jpg 1600w"> </div> </div> <!-- Controls --> <a class="left carousel-control" href=#carousel-person role=button data-slide=prev> <span class="icon icon-arrow-left" aria-hidden=true></span> <span class=sr-only>Previous</span> </a> <a class="right carousel-control" href=#carousel-person role=button data-slide=next> <span class="icon icon-arrow-right" aria-hidden=true></span> <span class=sr-only>Next</span> </a> <!-- Show More Link --> <a href=#person-desc class=show-more role=button data-toggle=collapse aria-expanded=false aria-controls=person-desc><span class="icon icon-arrow-down"></span> </a> </div> <!-- Show More Block--> <div id=person-desc class="more-block collapse"> <div class=content> <h3>Dr med. Gerlinde Koch</h3> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> </div> </div> </div> <!-- Slider 3 - Therapie --> <div class=row-therapie> <div id=carousel-therapie class="carousel slide" data-ride=carousel data-interval=false> <div class=slider-title> <h2>Person</h2> </div> <!-- Wrapper for slides --> <div class=carousel-inner role=listbox> <div class="item therapie-sl-1 active"> <img class=lazyload alt=Person src=./images/s/therapie-01.jpg data-srcset="
+                images/xxl/person-03.jpg 1600w"
+               />
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-person" role="button" data-slide="prev">
+              <span class="icon icon-arrow-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-person" role="button" data-slide="next">
+              <span class="icon icon-arrow-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!-- Show More Link -->
+            <a href="#person-desc" class="show-more" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="person-desc"><span class="icon icon-arrow-down"></span> </a>
+          </div>
+
+          <!-- Show More Block-->
+          <div id="person-desc" class="more-block collapse">
+            <div class="content">
+            <h3>Dr med. Gerlinde Koch</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Slider 3 - Therapie -->
+      <div class="row-therapie">
+        <div id="carousel-therapie" class="carousel slide" data-ride="carousel" data-interval="false">
+          <div class="slider-title">
+            <h2>Daiagnostik / Therapie</h2>
+          </div>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item therapie-sl-1 active">
+              <img class="lazyload"  alt="Diagnostik und Therapie" src="./images/s/therapie-01.jpg" data-srcset=
+              "
               images/s/therapie-01.jpg 640w,
               images/l/therapie-01.jpg 1200w,
-              images/xxl/therapie-01.jpg 1600w"> </div> <div class="item therapie-sl-2"> <img class=lazyload alt=Person src=./images/s/therapie-02.jpg data-srcset="
+              images/xxl/therapie-01.jpg 1600w"
+             />
+            </div>
+            <div class="item therapie-sl-2">
+              <img class="lazyload"  alt="Diagnostik und Therapie" src="./images/s/therapie-02.jpg" data-srcset=
+              "
               images/s/therapie-02.jpg 640w,
               images/l/therapie-02.jpg 1200w,
-              images/xxl/therapie-02.jpg 1600w"> </div> <div class="item therapie-sl-3"> <img class=lazyload alt=Person src=./images/s/therapie-03.jpg data-srcset="
+              images/xxl/therapie-02.jpg 1600w"
+             />
+            </div>
+            <div class="item therapie-sl-3">
+              <img class="lazyload"  alt="Diagnostik und Therapie" src="./images/s/therapie-03.jpg" data-srcset=
+              "
               images/s/therapie-03.jpg 640w,
               images/l/therapie-03.jpg 1200w,
-              images/xxl/therapie-03.jpg 1600w"> </div> </div> <!-- Controls --> <a class="left carousel-control" href=#carousel-therapie role=button data-slide=prev> <span class="icon icon-arrow-left" aria-hidden=true></span> <span class=sr-only>Previous</span> </a> <a class="right carousel-control" href=#carousel-therapie role=button data-slide=next> <span class="icon icon-arrow-right" aria-hidden=true></span> <span class=sr-only>Next</span> </a> <!-- Show More Link --> <a href=#therapie-desc class=show-more role=button data-toggle=collapse aria-expanded=false aria-controls=therapie-desc><span class="icon icon-arrow-down"></span> </a> </div> <!-- Show More Block--> <div id=therapie-desc class="more-block collapse"> <div class=content> <h3>Dr med. Gerlinde Koch</h3> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> </div> </div> </div> <!-- Slider 4  Kontakt --> <div class=row-kontakt> <div id=carousel-kontakt class="carousel slide" data-ride=carousel> <div class=slider-title><h2>Kontakt</h2></div> <!-- Wrapper for slides --> <div class=carousel-inner role=listbox> <div class="item kontakt-sl-1 active"> <img class=lazyload alt=Therapie src=./images/s/kontakt-01.jpg data-srcset="
+              images/xxl/therapie-03.jpg 1600w"
+             />
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-therapie" role="button" data-slide="prev">
+            <span class="icon icon-arrow-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-therapie" role="button" data-slide="next">
+            <span class="icon icon-arrow-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!-- Show More Link -->
+          <a href="#therapie-desc" class="show-more" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="therapie-desc"><span class="icon icon-arrow-down"></span> </a>
+        </div>
+
+        <!-- Show More Block-->
+        <div id="therapie-desc" class="more-block collapse">
+          <div class="content">
+          <h3>Dr med. Gerlinde Koch</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+        <!-- Slider 4  Kontakt -->
+        <div class="row-kontakt">
+          <div id="carousel-kontakt" class="carousel slide" data-ride="carousel">
+            <div class="slider-title"><h2>Kontakt</h2></div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item kontakt-sl-1 active">
+                <img class="lazyload"  alt="Kontakt" src="./images/s/kontakt-01.jpg" data-srcset=
+                "
                 images/s/kontakt-01.jpg 640w,
                 images/l/kontakt-01.jpg 1200w,
-                images/xxl/kontakt-01.jpg 1600w"> </div> </div> <!-- Controls --> <a class="left carousel-control" href=#carousel-kontakt role=button data-slide=prev> <span class="icon icon-arrow-left" aria-hidden=true></span> <span class=sr-only>Previous</span> </a> <a class="right carousel-control" href=#carousel-kontakt role=button data-slide=next> <span class="icon icon-arrow-right" aria-hidden=true></span> <span class=sr-only>Next</span> </a> <!-- Show More Link --> <a href=#kontaktblock class=show-more role=button data-toggle=collapse aria-expanded=false aria-controls=kontaktblock> <span class="icon icon-arrow-down"></span> </a> </div> <!-- Show More Block --> <div id=kontaktblock class="collapse more-block"> <div class=content> <section> <h3>Kontakt</h3> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> </section> <section> <h3>Kontaktformular</h3> <p>asdf asd f asd fa sd f qwg r t fwevoiajer</p> <form> <div class=form-group> <input type=email placeholder="Ihre E-Mail" class=form-control id=email name=email> </div> <div class=form-group> <textarea class=form-control name=message rows=8 cols=40></textarea> </div> <button type=submit name=submit-button class="btn btn-default btn-block">Senden</button> </form> </section> </div><!-- End .content --> </div><!-- End #kontaktblock --> </div><!-- End .row-kontakt --> </div> <div class=footer> <nav class=navbar> <div> <ul class=nav> <li><a href=# data-toggle=modal data-target=#imprintmodal>Impressum</a></li> </ul> </div> </nav> <!-- IMPRINT MODAL --> <div class="modal fade" id=imprintmodal> <div class=modal-dialog> <div class=modal-content> <div class=modal-body> <button type=button class=close data-dismiss=modal aria-hidden=true>&times;</button> <h3 class=hide>Impressum</h3> <h4>Dr. Gerlinde Koch </h4> </div> </div> </div> </div> </div> <script src=scripts/vendor.3fd65911.js></script> <script src=scripts/plugins.a10f6652.js></script> <script src=scripts/main.bff8a31e.js></script> <script type=text/javascript>// lazyload config
+                images/xxl/kontakt-01.jpg 1600w"
+               />
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-kontakt" role="button" data-slide="prev">
+              <span class="icon icon-arrow-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-kontakt" role="button" data-slide="next">
+              <span class="icon icon-arrow-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!-- Show More Link -->
+            <a href="#kontaktblock" class="show-more" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="kontaktblock">
+              <span class="icon icon-arrow-down"></span>
+            </a>
+          </div>
+
+          <!-- Show More Block -->
+          <div id="kontaktblock" class="collapse more-block">
+            <div class="content">
+              <section>
+                <h3>Kontakt</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div id="map2"></div>
+              </section>
+
+
+            </div><!-- End .content -->
+          </div><!-- End #kontaktblock -->
+        </div><!-- End .row-kontakt -->
+
+
+      </div>
+
+
+      <div class="footer">
+        <nav class="text-center">
+          <div class="nav">
+            <a href="#" data-toggle="modal" data-target="#imprintmodal">Impressum</a>
+          </div>
+        </nav>
+
+    <!-- IMPRINT MODAL -->
+    <div class="modal fade" id="imprintmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="hide">Impressum</h3>
+            <h4>Dr. Gerlinde Koch </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <script src="scripts/vendor.3fd65911.js"></script>
+
+
+    <script src="scripts/plugins.a10f6652.js"></script>
+
+    <script src="scripts/main.bff8a31e.js"></script>
+
+    <script type="text/javascript">
+    // lazyload config
       window.lazySizesConfig = window.lazySizesConfig || {};
       window.lazySizesConfig.expFactor = "200";
       window.lazySizesConfig.loadMode = "3";
       window.lazySizesConfig.hFac = "30";
-      window.lazySizesConfig.preloadAfterLoad = true;</script> </div> 
+      window.lazySizesConfig.preloadAfterLoad = true;
+    </script>
+
+
+  </body>
+</html>
