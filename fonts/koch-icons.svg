@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" > <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<defs >
+<font id="koch-icons" horiz-adv-x="937" ><font-face
+    font-family="Koch Icons"
+    units-per-em="1000"
+    panose-1="0 0 0 0 0 0 0 0 0 0"
+    ascent="750"
+    descent="-250"
+    alphabetic="0" />
+<missing-glyph horiz-adv-x="500" d="M0 700H500V0H0V700ZM420 650H80L250 395L420 650ZM450 95V605L280 350L450 95ZM420 50L250 305L80 50H420ZM50 95L220 350L50 605V95Z" />
+<glyph unicode="&#xd;" glyph-name="CR" horiz-adv-x="0" />
+<glyph unicode=" " glyph-name="space" horiz-adv-x="1000" />
+<glyph unicode="l" glyph-name="l" horiz-adv-x="1000" d="M262 -250Q252 -250 246 -243Q239 -236 239 -227T246 -210L705 250L246 711Q239 718 239 727T246 743Q253 750 262 750T279 743L754 266Q761 259 761 250T754 234L279 -243Q272 -250 262 -250Z" />
+<glyph unicode="n" glyph-name="n" horiz-adv-x="1000" d="M738 752Q748 752 754 745Q761 738 761 729T754 712L295 252L754 -209Q761 -216 761 -225T754 -241Q747 -248 738 -248T721 -241L246 236Q239 243 239 252T246 268L721 745Q728 752 738 752Z" />
+<glyph unicode="o" glyph-name="o" horiz-adv-x="1000" d="M1000 18Q1000 8 993 2Q986 -5 977 -5T960 2L500 461L39 2Q32 -5 23 -5T7 2Q0 9 0 18T7 35L484 510Q491 517 500 517T516 510L993 35Q1000 28 1000 18Z" />
+<glyph unicode="p" glyph-name="p" horiz-adv-x="1000" d="M0 494Q0 504 7 510Q14 517 23 517T40 510L500 51L961 510Q968 517 977 517T993 510Q1000 503 1000 494T993 477L516 2Q509 -5 500 -5T484 2L7 477Q0 484 0 494Z" />
+<glyph unicode="&#xa0;" glyph-name="uni00A0" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
